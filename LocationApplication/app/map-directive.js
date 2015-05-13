@@ -1,5 +1,8 @@
 ﻿(function () {
-    
+    //Go to the Bing Map Dev Center and create a new developer account: https://www.bingmapsportal.com/ 
+    //Visit their documentation for more information about the AJAX control: https://msdn.microsoft.com/en-us/library/gg427610.aspx 
+    //Learn more about how to use the AJAX control using live demo://    https://www.bingmapsportal.com/ISDK/AjaxV7 
+
     var app = angular.module("userViewer");
 
     app.directive('bingmap', function () {
@@ -28,5 +31,4 @@
             }
         };
     });
-
 }());

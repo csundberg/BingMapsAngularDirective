@@ -25,6 +25,7 @@ namespace LocationApplication
                       "~/Content/site.css"));
 
             // HACK: in order to not have to add all app scripts seperately, bundle but don't minify since I haven't written the Angular to use arrays of dependencies yet
+            // https://docs.angularjs.org/guide/di 
             bundles.Add(new Bundle("~/bundles/app").IncludeDirectory("~/app", "*.js", true));
 
             // Set EnableOptimizations to false for debugging. For more information,
