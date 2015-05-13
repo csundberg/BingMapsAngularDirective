@@ -163,6 +163,7 @@
     <Content Include="app\main-controller.js" />
     <Content Include="app\main.html" />
     <Content Include="app\map-controller.js" />
+    <Content Include="app\map-directive.js" />
     <Content Include="app\map.html" />
     <Content Include="app\user-controller.js" />
     <Content Include="app\user.html" />
