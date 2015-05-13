@@ -24,6 +24,9 @@ namespace LocationApplication
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
+            // HACK: in order to not have to add all app scripts seperately, bundle but don't minify since I haven't written the Angular to use arrays of dependencies yet
+            bundles.Add(new Bundle("~/bundles/app").IncludeDirectory("~/app", "*.js", true));
+
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
             BundleTable.EnableOptimizations = true;
